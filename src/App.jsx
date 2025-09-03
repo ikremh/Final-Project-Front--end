@@ -1,7 +1,7 @@
 // App.js
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import React, { useState, useEffect } from "react";
-import './responsive.css'; // استيراد ملف التنسيقات الجديد
+import './responsive.css'; 
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
