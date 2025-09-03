@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Card, Image } from "react-bootstrap";
-import { FaStar } from "react-icons/fa";
+import { FaStar, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import Slider from "react-slick";
 
 export default function Testimonials() {
@@ -31,41 +31,59 @@ export default function Testimonials() {
     },
   ];
 
+  
+  const PrevArrow = ({ onClick }) => (
+    <button
+      className="custom-arrow custom-prev"
+      onClick={onClick}
+    >
+      <FaChevronLeft />
+    </button>
+  );
+
+  const NextArrow = ({ onClick }) => (
+    <button
+      className="custom-arrow custom-next"
+      onClick={onClick}
+    >
+      <FaChevronRight />
+    </button>
+  );
+
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, 
+    slidesToShow: 3,
     slidesToScroll: 1,
-    arrows: true, 
+    arrows: true,
+    prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
     responsive: [
-      {
-        breakpoint: 992,
-        settings: { slidesToShow: 2 },
-      },
-      {
-        breakpoint: 768,
-        settings: { slidesToShow: 1 },
-      },
+      { breakpoint: 992, settings: { slidesToShow: 2 } },
+      { breakpoint: 768, settings: { slidesToShow: 1 } },
     ],
   };
 
   return (
-    <section className="py-5 bg-light">
+    <section className="py-5 bg-light position-relative">
       <Container>
-       
         <div className="text mb-5">
-          <h6 className=" fw-bold" style={{ color: "#2eca7f" }}>TESTIMONIAL _______</h6>
-          <h2 style={{ color: '#1a2d62', fontSize:"2.5rem"}}>
-            What Says <span className="text" style={{ color: "#2eca7f" }}>Our Students</span>
+          <h6 className=" fw-bold" style={{ color: "#2eca7f" }}>
+            TESTIMONIAL _______
+          </h6>
+          <h2 style={{ color: "#1a2d62", fontSize: "2.5rem" }}>
+            What Says{" "}
+            <span className="text" style={{ color: "#2eca7f" }}>
+              Our Students
+            </span>
           </h2>
         </div>
 
-        
-        <Slider {...settings }>
+        <Slider {...settings}>
           {testimonials.map((item, index) => (
-            <div key={index} className="px-3 " >
-              <Card className="shadow border-0 h-100 " >
+            <div key={index} className="px-3">
+              <Card className="shadow border-0 h-100">
                 <Card.Body>
                   <div className="mb-3 text-warning">
                     {[...Array(5)].map((_, i) => (
@@ -74,7 +92,10 @@ export default function Testimonials() {
                   </div>
                   <Card.Text className="text-muted">{item.text}</Card.Text>
                 </Card.Body>
-                <Card.Footer className="bg-info bg-opacity-10 d-flex align-items-center border-0 " style={{   height:'100px'}}>
+                <Card.Footer
+                  className="bg-info bg-opacity-10 d-flex align-items-center border-0"
+                  style={{ height: "100px" }}
+                >
                   <Image
                     src={item.image}
                     roundedCircle
@@ -95,4 +116,3 @@ export default function Testimonials() {
     </section>
   );
 }
-

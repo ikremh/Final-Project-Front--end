@@ -1,0 +1,171 @@
+
+
+@media (max-width: 767px) {
+ 
+
+  body{
+
+padding-top: 00px;
+
+  }
+  #home {
+    bottom: 0;
+  }
+
+  .home-content {
+    padding: 100px 20px;
+    text-align: center;
+  }
+
+  .home-content h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .home-content span {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .home-content p {
+    font-size: 16px;
+  }
+
+  #home::before {
+    display: none; 
+  }
+
+ 
+  .box1, .box2 {
+    display: none;
+    position: static;
+    margin: 20px auto;
+    width: 90%;
+    box-shadow: 0px 0 15px rgba(1, 41, 112, 0.08);
+  }
+.trusted-heading {
+    padding: 0.75rem 1.5rem;
+    margin: 1rem auto;}
+ 
+  #card-container {
+    flex-direction: column;
+    transform: translateY(0);
+    padding: 20px;
+  }
+
+  
+  .py-5 h1,
+  .platform h1,
+  .general-questions-title {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .py-5 p {
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 28px;
+  }
+
+  
+  .custom-arrow {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .custom-prev {
+    right: 70px;
+  }
+
+ 
+  .search input {
+    width: 90%;
+    margin: 10px auto;
+    position: static;
+  }
+
+  .email-subscribe {
+    margin: 30px 10px;
+  }
+
+  .email-button {
+    width: 45px;
+    height: 40px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+#explore-button{
+  margin: 0;
+    font-size: 0.7rem;
+  padding: 0.7rem .2rem;
+height: 3.0rem;
+
+}
+#explore-button:hover{
+  margin: 0;
+  padding: 0.7rem .2rem;
+height: 3.0rem;
+
+}
+  .home-content {
+    padding: 150px 50px;
+
+  }
+
+  .home-content h1 {
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+display: flex;
+  flex-direction: column; 
+  gap: 7px;
+    
+  }
+   .home-content span {
+    font-size: 50px;
+    line-height: 60px;
+  flex-direction: column; 
+  gap: 5px;
+
+  }
+  .home-content p {
+ text-align: left;
+ 
+  }
+  #home::before {
+    display: none;
+    
+  }
+#home{
+  height: 40rem;
+}
+  .box1, .box2 {
+    display: none;
+    
+
+  }
+ 
+  
+  .py-5 h1,
+  .platform h1,
+  .general-questions-title {
+    font-size: 28px;
+  }
+
+  .accordion-button {
+    font-size: 16px;
+  }
+}
+
+
+
+@media (min-width: 991px) {
+  .box2{
+
+    margin: 480px;
+  }
+}

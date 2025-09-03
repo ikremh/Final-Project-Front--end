@@ -37,7 +37,7 @@ const TopicsSection = () => {
   return (
     <Container className="my-5">
       <div className="text-right mb-5">
-        <h6 className="text-uppercase" style={{ color: '#2ECC71', letterSpacing: '2px', fontSize: '0.8rem'  }}>
+        <h6 className="text-uppercase" style={{ color: '#2ECC71', fontSize: '0.8rem'  }}>
           Start Learning______________
         </h6>
         <h2 className="display-4" style={{ fontWeight: 'bold', fontSize: '2.5rem', color: '#1a2d62' }}>
@@ -53,7 +53,7 @@ const TopicsSection = () => {
                   {topic.icon}
                 </div>
                 <div>
-                  <h5 className="mb-2" style={{ fontWeight: '600' }}>{topic.title}</h5>
+                  <h5 className="mb-2" style={{ fontWeight: '400', }}>{topic.title}</h5>
                   <p className="mb-2" style={{ color: '#2eca7f' }}>{topic.courses} Courses</p>
                 </div>
               </div>

@@ -1,13 +1,26 @@
-export default function Courses() {
+import React from "react";
+import { Container, Row, Col, Button, Form, InputGroup } from "react-bootstrap";
+import Course from "../components/coursespage" 
+function Home2() {
   return (
-    <div className="max-w-4xl mx-auto mt-8 p-4">
-      <h1 className="text-3xl font-bold mb-4">Our Courses</h1>
-      <ul className="list-disc pl-6 text-gray-700">
-        <li>Web Development</li>
-        <li>Data Science</li>
-        <li>Cloud Computing</li>
-        <li>AI & Machine Learning</li>
-      </ul>
-    </div>
+    <>
+      <header id="about-section" className="  py-5   text-center" style={{backgroundImage:"./image/about-bg.png"}}>
+        <Row className="justify-content-center">
+          <Col md={10} lg={8}>
+          
+          <h1 className="text-center m-3">courses</h1>
+      <button className="btn-about "><span>Home</span>/About us</button>
+
+           
+
+           
+          </Col>
+        </Row>
+      </header>
+   
+<Course/>
+    </>
   );
 }
+
+export default Home2;

@@ -46,7 +46,6 @@ export default function AppNavbar() {
 
             <Nav.Link as={Link} to="/about">about</Nav.Link>
 
-            <Nav.Link as={Link} to="/page">page</Nav.Link>
 
                         <Nav.Link as={Link} to="/course">course</Nav.Link>
 

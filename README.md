@@ -1,12 +1,47 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ابرز الاستخدامات 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React:
+ لبناء واجهات المستخدم التفاعلية.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+HTML5 & CSS3:
+  مع هيكلة ومظهر المشروع.
+
+React Bootstrap: 
+
+لإدارة الصفحات والاقسام الجاهزة 
+
+
+React Router:
+ لإدارة التنقل بين الصفحات المختلفة في الموقع.
+
+React Icons: 
+لاستخدام أيقونات نفس المطلوبه في المشروع 
+
+React Scroll:
+ لتوفير امكانية الانتقال لاعلى الصفحه 
+
+
+
+Hooks و Props (State Management)
+useState Hook:  عدد من المكونات ومن ثم استدعائها  ا.
+
+useEffect Hook:
+
+
+Props:
+
+Vite:
+
+ أداة لإنشاء مشروع React وتوفير بيئة تطوير سريعة جداً.
+
+
+Responsive Design:
+ تم بناء المشروع بالكامل ليكون متجاوباً مع جميع أحجام الشاشات (كمبيوتر، تابلت، وهاتف).
+
+
+<!--  
+وفي الختام
+نتمنى ان ينال اعجابكم مع خالص الشكر والامتنان للمهندسين رؤى ابو شقره و انس النسور -->

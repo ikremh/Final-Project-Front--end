@@ -14,26 +14,16 @@ const NewsletterForm = () => {
           <p className="mb-4" style={{ color: '#7F8C8D' }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eiusmod tempor enim minim
           </p>
-          <Form>
-            <InputGroup className="mb-4">
-              <Form.Control
-                type="email"
-                placeholder="Enter Your Email Address"
-                aria-label="Email Address"
-                style={{ 
-                    borderRadius: '50px 50px 50px 50px', 
-                     }}
-              />
-              <Button 
-                variant="success " 
-                id="button-addon2" 
-                style={{ backgroundColor: '#2d995aff',  margin: '0 5px', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '50px', height: '50px', border: 'none', 
-                    borderRadius: '50%' }}
-              >
-                <FaPaperPlane />
-              </Button>
-            </InputGroup>
-          </Form>
+               <div className="email-subscribe">
+      <input
+        type="email"
+        placeholder="Enter Your Email Address"
+        className="email-input"
+      />
+      <button className="email-button">
+        <FaPaperPlane color="white" size={25} />
+      </button>
+    </div>
         </Col>
       </Row>
     </Container>

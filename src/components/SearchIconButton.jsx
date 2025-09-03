@@ -17,7 +17,6 @@ export default function SearchIconButton() {
     
       {open && (
 <div className=" search relative w-64">
-  {/* مربع البحث */}
   <input
     type="text"
     placeholder="Search Courses Here"
@@ -26,7 +25,6 @@ export default function SearchIconButton() {
                focus:ring-2 focus:ring-blue-500 focus:ring-offset-1 transition duration-300"
   />
 
-  {/* أيقونة البحث على اليمين داخل الصندوق */}
   <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
     <i className="bi bi-search text-gray-400 text-lg"></i>
   </div>

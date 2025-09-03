@@ -16,31 +16,6 @@ Our Latest <span className="" style={{ color: "#2eca7f" }}>Blogs</span>
 
 
 <Col md={4}>
-<Card className=" card-latest mb-4 shadow border-0  p-3">
-
-
-<Card.Body>
-<Card.Subtitle className="mb-2 text-muted small ">
-Jun 01, 2024 | <span className="Technology">Technology </span>
-
-</Card.Subtitle>
-<div className="Professional "  > <a href="">Professional Ceramic Moulding for Beginner
- 
-
-</a> 
-</div>
- <ExploreButton className="read-button">Read more </ExploreButton >
-
-
-
-
-
-
-
-</Card.Body>
-
-</Card>
-
 
 <Card className="mb-4 shadow border-0 ">
 
@@ -48,6 +23,24 @@ Jun 01, 2024 | <span className="Technology">Technology </span>
 
 <Card.Subtitle className="mb-2 text-muted small ">
 Jun 01, 2024 | <span className="Technology">Technology </span>
+
+</Card.Subtitle>
+<div className="Professional "  > <a href="">Professional Ceramic Moulding for Beginner
+</a>
+</div>
+
+<ExploreButton >Read more </ExploreButton >
+
+</Card.Body>
+
+</Card>
+
+<Card className="mb-4 shadow border-0 ">
+
+<Card.Body>
+
+<Card.Subtitle className="mb-2 text-muted small ">
+may 29, 2024 | <span className="Technology">porgramming </span>
 
 </Card.Subtitle>
 <div className="Professional "  > <a href="">Professional Ceramic Moulding for Beginner

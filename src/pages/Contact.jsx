@@ -1,13 +1,29 @@
-export default function Contact() {
+import React from "react";
+import { Container, Row, Col, Button, Form, InputGroup } from "react-bootstrap";
+
+import Card from "../components/contectcard"
+import FormC from "../components/contectform"
+function Home2() {
   return (
-    <div className="max-w-md mx-auto mt-8 p-4">
-      <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
-      <form className="flex flex-col gap-4">
-        <input type="text" placeholder="Your Name" className="border p-2 rounded"/>
-        <input type="email" placeholder="Your Email" className="border p-2 rounded"/>
-        <textarea placeholder="Your Message" className="border p-2 rounded"></textarea>
-        <button className="bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Send</button>
-      </form>
-    </div>
+    <>
+      <header id="about-section" className="  py-5   text-center" style={{backgroundImage:"./image/about-bg.png"}}>
+        <Row className="justify-content-center">
+          <Col md={10} lg={8}>
+          
+          <h1 className="text-center m-3">Contact</h1>
+      <button className="btn-about "><span>Home</span>/About us</button>
+
+           
+
+           
+          </Col>
+        </Row>
+      </header>
+    <Card/>
+   <FormC/>
+
+    </>
   );
 }
+
+export default Home2;

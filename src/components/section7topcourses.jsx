@@ -4,7 +4,7 @@ import { FaFileAlt, FaRegClock, FaStar  } from "react-icons/fa";
 import { GiNetworkBars } from "react-icons/gi";
 import { LoginButton } from "./Buttons";
 
-export default function TopCourses() {
+export default function  TopCourses() {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {

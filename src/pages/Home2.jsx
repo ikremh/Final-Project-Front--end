@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Button, Form, InputGroup } from "react-bootstrap";
+
 import { FaPaperPlane } from 'react-icons/fa'; 
 import Cardone from "../components/card";
-import { LoginButton } from "../components/Buttons";
 import Popular from "../components/section10Topics To Learn ";
 import Section4 from"../components/home2section4";
 import TopCourses from "../components/section7topcourses";
@@ -13,6 +13,7 @@ import About from "../components/Home2about.jsx";
 import Cardprice from"../components/home2card.jsx";
 import Oure from "../components/section14OurLatest .jsx"
 import Subscripe from "../components/section9Subscripbe.jsx"
+import Courses from "../components/homecourses.jsx"
 function Home2() {
   return (
     <>
@@ -28,15 +29,20 @@ function Home2() {
               readable content of a page when.
             </p>
 
-            <InputGroup className="custom-search-bar mt-5">
-              <Form.Control 
-                type="text"
-                placeholder="Search Your Course Here"
-                aria-label="Search Course"
-              />
-              <LoginButton>search <FaPaperPlane className="ms-3  text-light" /></LoginButton>
+            
+             <div className="email-subscribe">
+      <input
+        type="email"
+        placeholder="Search  Your Course Here"
+        className="email-input"
+      />
+      <button className="search-button text-light">
+                Search
+
+        <FaPaperPlane className="m-2 mb-1" color="white" size={17} />
+      </button>
+    </div>
           
-            </InputGroup>
 
             <div className="popular-topics mt-3 ">
               <span className="text-muted">Popular Topic: </span>
@@ -49,7 +55,7 @@ function Home2() {
       <Cardone className="py-5 m-5"/>
 <Popular/>
 <Section4/>
-<TopCourses />
+<Courses/>
 <Ourgreat/>
 <Background/>
 <Spider/>

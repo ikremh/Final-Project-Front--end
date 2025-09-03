@@ -6,7 +6,7 @@ function BasicExample() {
     <div id='card-container' className=" row g-4 justify-content-center border-0" >
       <Card style={{ width: '28rem' , border: 'none'  }}>
         <Card.Body >
-          <Card.Title className='card-title'>Quality Education</Card.Title>
+          <Card.Title className='card-title text-bold'>Quality Education</Card.Title>
           <Card.Text className='card-text'>
            Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor ut labore.
           </Card.Text>
